@@ -1,0 +1,32 @@
+{
+  "name": "@omariosouto/common-errors",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "echo 'no tests yet!'",
+    "test:watch": "npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "repository": "https://github.com/omariosouto/common-errors",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@omariosouto/tsconfig": "^2.0.1",
+    "tsup": "^8.4.0",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,3 @@
+# @omariosouto/common-errors
+
+...
